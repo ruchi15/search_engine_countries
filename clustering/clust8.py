@@ -11,7 +11,7 @@ from scipy.cluster.hierarchy import ward, dendrogram
 start_time = time.time()
 
 # Open SOLR Index JSON file
-f = open('solr_index_data/solr_index_data.json', encoding="ISO-8859-1")
+f = open('solr_index_data.json', encoding="ISO-8859-1")
 data = json.load(f)
 f.close()
 
